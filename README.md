@@ -69,3 +69,4 @@ The production build currently succeeds with a Vite warning that the main JavaSc
 
 The object catalog remains a curated educational set with SIMBAD record links; it is not a live SIMBAD query. The app does not query live NASA/IPAC observation products. NASA image search uses the documented Images API, but the API returned HTTP 502 in this development environment; the lab therefore shows a transparent error/retry state here. Calibration summaries are sourced from the included IRSA CSV files. Anonymous saves are scoped by a browser-generated session identifier, not a login, and should not be treated as account-grade authentication. Learning and journey progress are browser-local.
 # nasa
+# nasa
